@@ -1,0 +1,285 @@
+.wrapper {
+  max-width: 960px;
+  background: lightgray;
+  padding-left: 10%;
+  padding-right: 10px;
+}
+.portfolioimages {
+  float: left;
+  width: 200px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+}
+.nav {
+  width: 31%;
+  float: right;
+  font-size: 17px;
+  padding-left: 80px;
+  padding-top: -16px;
+  background-color: white;
+  color: gray;
+  margin-top: 69px;
+}
+.imgContainer {
+  float: left;
+}
+.pictureWrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.header {
+  background-color: #ffffff;
+  height: 150px;
+  position: relative;
+  border-color: #cccccc;
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+.profilePic {
+  float: left;
+  width: 170px;
+  height: 170px;
+  padding-right: 20px;
+}
+.content {
+  background: white;
+}
+.page {
+  padding-top: 40px;
+}
+h2 {
+  color: lightseagreen;
+}
+.pname {
+  color: white;
+}
+.myName {
+  background-color: #4aaaa5;
+  height: 80px;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  font-size: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+.links {
+  color: gray;
+  position: absolute;
+  bottom: 20%;
+  right: 20px;
+}
+.actualBody {
+  position: relative;
+  height: 200px;
+  padding-left: 200px;
+}
+.pagebodyHeader {
+  float: none;
+}
+.image {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  float: left;
+  width: 170px;
+  height: 170px;
+}
+.aboutMe {
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+.p {
+  text: #777777;
+}
+hr {
+}
+.p1 {
+  margin-left: 200px;
+}
+.mainBody {
+  background-color: #ffffff;
+  border-color: #464141;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 13px;
+}
+
+.footer1 {
+  background-color: #4aaaa5;
+  width: 960px;
+  height: 10px;
+}
+.footer2 {
+  background-color: grey;
+  width: 960px;
+  height: 30px;
+}
+
+.blankcel {
+  float: left;
+  width: 200px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  height: 200px;
+}
+.button {
+  color: white;
+  background-color: #4aaaa5;
+  font-size: 20px;
+}
+.contactFields {
+  width: 860px;
+  height: 30px;
+}
+.contactTextArea {
+  width: 860px;
+  height: 300px;
+}
+/* media screen size */
+@media screen and (max-width: 980px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-right: 10%;
+  }
+  .pictureWrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .profilePic {
+    padding-right: 13px;
+  }
+  .page {
+    padding-top: 12px;
+  }
+  .header {
+    height: 80px;
+  }
+  .p1 {
+    float: none;
+    width: auto;
+  }
+  .nav {
+    width: 33%;
+    display: flex;
+    font-size: 13px;
+    padding-right: 48px;
+    margin-top: -16px;
+    height: 46px;
+    padding-top: 26px;
+  }
+
+  .myName {
+    font-size: 25px;
+    padding-left: 10px;
+    height: 70px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .footer1 {
+    width: 100%;
+  }
+  .footer2 {
+    width: 100%;
+  }
+}
+
+.contactFields {
+  width: 450px;
+  height: 30px;
+}
+.contactTextArea {
+  width: 450px;
+  height: 300px;
+}
+@media screen and (max-width: 640px) {
+  .wrapper {
+    padding-right: 10%;
+  }
+  .header {
+    height: 82px;
+    width: 96%;
+  }
+  .page {
+    padding-top: 0px;
+  }
+  .nav {
+    width: 86%;
+    font-size: 20px;
+    padding-left: 80px;
+    margin-top: 53px;
+    height: 46px;
+    padding-top: 26px;
+    background-color: white;
+  }
+  .mainBody {
+    margin-top: 53px;
+  }
+  .portfolioimages {
+    float: left;
+    width: 380px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  .pictureWrapper {
+    grid-template-columns: auto;
+  }
+  .profilePic {
+    float: left;
+    width: 95%;
+    height: 60%;
+    padding-left: 11px;
+
+    padding-bottom: 22px;
+  }
+
+  .pname {
+    widows: 100%;
+  }
+  .p1 {
+    margin-left: 11px;
+  }
+
+  .p {
+    margin-left: 11px;
+  }
+  .myName {
+    font-size: 52px;
+    padding-left: 15px;
+    height: 70px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    width: 96%;
+  }
+
+  .footer1 {
+    width: 100%;
+  }
+  .footer2 {
+    width: 100%;
+  }
+
+  .contactFields {
+    width: 450px;
+    height: 30px;
+  }
+  .contactTextArea {
+    width: 450px;
+    height: 300px;
+  }
+}
